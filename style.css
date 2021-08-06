@@ -1,0 +1,99 @@
+html {
+  background-color: #f2cfce;
+  background-image: url('img/flowers.png');
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-size: 20%;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#l01 {
+  list-style-type: none;
+  margin:  0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2cfce;
+}
+#l01 li{
+  float:  left;
+}
+
+#l01 li a {
+  display: block;
+  background-color: #f2cfce;
+  color:  white;
+  text-align: center;
+  padding: 15px 113.5px;
+  text-decoration: none;
+}
+
+#l01 li a:hover {
+  background-color: #EEC0BF;
+}
+
+body {  
+  color: black;
+  width: 78%;
+  margin: 0 auto;
+  background-color: #FFEBF0;
+  padding: 0 20px 20px 20px;
+}
+
+h1 {
+  background-image: url('img/blog.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 265px 0px;
+  font-size: 60px; 
+  color: #fa5568;
+  text-shadow: 3px 3px 1px white;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+h2 {
+  color: #ffabd4;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+h4 {
+  color: black;
+  font-size:  22px;
+}
+
+.maintext {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.links {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #f2cfce;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+a:link, a:visited {
+  background-color: rgb(220, 124, 230);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover, a:active{
+  background-color: rgb(156, 126, 231);
+}
